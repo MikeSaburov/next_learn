@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 const Navbar = () => {
   return (
     <nav className="bg-emerald-400 border-b border-blue-500">
@@ -37,7 +40,7 @@ const Navbar = () => {
             <Link className="flex flex-shrink-0 items-center" href="/">
               <Image
                 className="h-10 w-auto"
-                src={logo}
+                src={''}
                 alt="Аренда Недвижимости"
               />
 
