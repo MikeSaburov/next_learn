@@ -7,9 +7,9 @@
 // }
 {
   "compilerOptions": {
-    "baseUrl": "app/",
+    "baseUrl": "/",
     "paths": {
-      "@/assets/styles/*": ["assets/styles/*"],
+      "@/app/assets/styles/*": ["assets/styles/*"],
       "@/components/*": ["components/*"]
     }
   }
