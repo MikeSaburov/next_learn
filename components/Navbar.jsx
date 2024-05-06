@@ -1,5 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import logo from '../app/assets/images/logo.png';
+import profile from '../app/assets/images/profile.png';
+
+import { FaGoogle } from 'react-icons/fa';
 
 const Navbar = () => {
   return (
@@ -40,7 +44,7 @@ const Navbar = () => {
             <Link className="flex flex-shrink-0 items-center" href="/">
               <Image
                 className="h-10 w-auto"
-                src={''}
+                src={logo}
                 alt="Аренда Недвижимости"
               />
 

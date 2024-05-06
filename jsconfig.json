@@ -10,6 +10,7 @@
     "baseUrl": "/",
     "paths": {
       "@/app/assets/styles/*": ["assets/styles/*"],
+      "@/app/assets/images/*": ["assets/images/*"],
       "@/components/*": ["components/*"]
     }
   }
