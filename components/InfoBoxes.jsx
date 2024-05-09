@@ -10,7 +10,7 @@ const InfoBoxes = () => {
             buttonInfo={{
               text: 'Подобрать недвижимость',
               link: '/properties',
-              backgroundCilor: 'bg-amber-300',
+              backgroundColor: 'bg-amber-300',
             }}
           >
             Найдите недвижимость вашей мечты. Добавьте объекты в закладки и
@@ -22,7 +22,7 @@ const InfoBoxes = () => {
             buttonInfo={{
               text: 'Подобрать недвижимость',
               link: '/properties',
-              backgroundCilor: 'bg-amber-300',
+              backgroundColor: 'bg-green-500',
             }}
           >
             Составьте список своей недвижимости и свяжитесь с потенциальными
